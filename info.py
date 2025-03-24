@@ -61,8 +61,8 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'Benzmawa@axisbank')
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://benz:123@clustero.ao34t.mongodb.net/?retryWrites=true&w=majority&appName=clustero")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://benz:123@clustero.ao34t.mongodb.net/?retryWrites=true&w=majority&appName=clustero")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Benzmawafiles')
 
