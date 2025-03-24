@@ -93,10 +93,10 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/dreamcinezone')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/dreamcinezone')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/dreamcinezone')
-DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/dreamcinezone')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+veG2PpVpZQ03ZDYx')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/benzmovies')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/benzmawabot')
+DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/benzmovies')
 OWNERID = int(os.environ.get('OWNERID', '1234567890'))  # Replace with the actual admin ID
 
 # ============================
