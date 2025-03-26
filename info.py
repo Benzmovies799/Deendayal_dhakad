@@ -176,9 +176,9 @@ else:
     ON_HEROKU = False
 HAS_SSL = bool(getenv('HAS_SSL', True))
 if HAS_SSL:
-    URL = "https://{}/".format(FQDN)
+    URL = "https://suitable-luce-north1211-015c688f.koyeb.app/".format(FQDN)
 else:
-    URL = "http://{}/".format(FQDN)
+    URL = "https://suitable-luce-north1211-015c688f.koyeb.app/".format(FQDN)
 
 # ============================
 # Reactions Configuration
